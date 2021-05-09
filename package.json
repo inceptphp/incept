@@ -1,0 +1,36 @@
+{
+  "name": "incept_01",
+  "description": "No Code Framework",
+  "repository": "https://github.com/inceptphp/incept.git",
+  "author": "Christian Blanquera <cblanquera@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "ace-editor-builds": "^1.2.4",
+    "bootstrap": "^4.5.0",
+    "bootstrap-markdown-editor-4": "^3.0.0",
+    "ckeditor5": "^21.0.0",
+    "doon": "^1.0.1",
+    "flatpickr": "^4.6.3",
+    "fullcalendar": "^5.2.0",
+    "google-code-prettify": "^1.0.5",
+    "handlebars": "^4.7.6",
+    "inputmask": "^5.0.3",
+    "intl-tel-input": "^17.0.12",
+    "ion-rangeslider": "^2.3.1",
+    "jquery": "^3.5.1",
+    "jquery-knob": "^1.2.11",
+    "jquery-sortable": "^0.9.13",
+    "jstree": "^3.3.10",
+    "moment": "^2.27.0",
+    "open-sans-fontface": "^1.4.0",
+    "papaparse": "^5.2.0",
+    "select2": "^4.0.13",
+    "toastr": "^2.1.4",
+    "yarn-acquire": "^0.0.8",
+    "yarn-cropper": "^0.0.1"
+  },
+  "scripts": {
+    "build": "yarn install --modules-folder ./public/components"
+  }
+}

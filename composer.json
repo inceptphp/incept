@@ -1,0 +1,14 @@
+{
+  "name": "inceptphp/incept",
+  "description": "A PHP8 No Code Framework",
+  "type": "cms",
+  "minimum-stability": "dev",
+  "license": "LGPL-2.1-or-later",
+  "require": {
+    "inceptphp/packages": "~0.1.0"
+  },
+  "require-dev": {},
+  "config": {
+    "bin-dir": "bin"
+  }
+}
