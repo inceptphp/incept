@@ -2,7 +2,6 @@
   "name": "incept_01",
   "description": "No Code Framework",
   "repository": "https://github.com/inceptphp/incept.git",
-  "author": "Christian Blanquera <cblanquera@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
