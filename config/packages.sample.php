@@ -69,6 +69,14 @@ return [
     'active' => true,
     'locked' => false
   ],
+  'inceptphp/packages/role' => [
+    'active' => true,
+    'locked' => false
+  ],
+  'inceptphp/packages/api' => [
+    'active' => true,
+    'locked' => false
+  ],
   '/module/app' => [
     'active' => true,
     'locked' => true
