@@ -3,6 +3,7 @@
  * This file is part of a Custom Project.
  */
 
+require_once __DIR__ . '/AppPackage.php';
 require_once __DIR__ . '/controller/assets.php';
 
 require_once __DIR__ . '/events.php';
