@@ -41,6 +41,11 @@ class AppPackage extends AdminPackage
       return;
     }
 
+    //if there's already content
+    if ($response->hasContent()) {
+      return;
+    }
+
     //get the path
     $path = $request->getPath('string');
     //if it was a call for an actual file

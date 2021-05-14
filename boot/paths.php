@@ -9,4 +9,10 @@ return function() {
     ->setSchemaFolder(INCEPT_CWD . '/config/schema')
     //set fieldset folder
     ->setFieldsetFolder(INCEPT_CWD . '/config/fieldset');
+
+  $this('file')
+    //set upload folder
+    ->setUploadFolder(INCEPT_CWD . '/public/upload')
+    //set URI path
+    ->setUriPath('/upload');
 };

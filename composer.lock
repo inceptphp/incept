@@ -298,12 +298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/packages.git",
-                "reference": "2c0a4176df0dfea95598a90d2a5c2988303fb3ed"
+                "reference": "7532cd9ec622c9b0fff19e58576c1b1b33f6780d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/packages/zipball/2c0a4176df0dfea95598a90d2a5c2988303fb3ed",
-                "reference": "2c0a4176df0dfea95598a90d2a5c2988303fb3ed",
+                "url": "https://api.github.com/repos/inceptphp/packages/zipball/7532cd9ec622c9b0fff19e58576c1b1b33f6780d",
+                "reference": "7532cd9ec622c9b0fff19e58576c1b1b33f6780d",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 "issues": "https://github.com/inceptphp/packages/issues",
                 "source": "https://github.com/inceptphp/packages/tree/0.1"
             },
-            "time": "2021-05-10T02:17:02+00:00"
+            "time": "2021-05-14T08:17:55+00:00"
         },
         {
             "name": "phpugph/components",
