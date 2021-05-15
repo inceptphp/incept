@@ -30,9 +30,15 @@
 
   <body>
     <section class="layout-app">
-      {{> head}}
-      {{{content}}}
-      {{> foot}}
+      <header class="head">
+        {{> head}}
+      </header>
+      <main class="body">
+        {{{content}}}
+      </main>
+      <footer class="foot">
+        {{> foot}}
+      </footer>
     </section>
 
     {{> flash}}

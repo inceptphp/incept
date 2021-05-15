@@ -58,6 +58,7 @@ $this('http')->get('/styles/app.css', function (
 ) {
   $body = $this('handlebars')
     ->setTemplateFolder(dirname(__DIR__) . '/assets')
+    ->registerPartialFromFolder('style_app', 'css')
     ->registerPartialFromFolder('style_components', 'css')
     ->registerPartialFromFolder('style_error', 'css')
     ->registerPartialFromFolder('style_fields', 'css')
