@@ -128,7 +128,7 @@ class AppPackage extends AdminPackage
 
     $page = $handlebars
       ->registerPartialFromFile('head', $template . '/_head.html')
-      ->registerPartialFromFile('left', $template . '/_foot.html')
+      ->registerPartialFromFile('foot', $template . '/_foot.html')
       ->registerPartialFromFile('flash', $template . '/_flash.html')
       ->renderFromFile(sprintf('%s/_%s.html', $template, $layout), $data);
 

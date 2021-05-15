@@ -1,1 +1,51 @@
-HEAD
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">My Site</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            title="Choose Your Language"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            {{./i18n}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" title="English" href="/en_US{{page.meta.path}}">English</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav my-2 my-lg-0">
+        {{#request 'session' 'me'}}
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signout?redirect_uri={{hostrelative}}">
+              {{_ 'Logout'}}
+            </a>
+          </li>
+        {{else}}
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signin?redirect_uri={{page.meta.path}}">{{_ 'Login'}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/signup?redirect_uri={{page.meta.path}}">{{_ 'Signup'}}</a>
+          </li>
+        {{/request}}
+      </ul>
+    </div>
+  </div>
+</nav>

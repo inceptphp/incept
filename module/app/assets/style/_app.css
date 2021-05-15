@@ -1,0 +1,20 @@
+/* Partial - Head
+------------------------------*/
+/* Partial - Body
+------------------------------*/
+.body {
+  min-height: 100vh;
+}
+
+/* Partial - Foot
+------------------------------*/
+.foot a {
+  display: inline-block;
+  margin: 0 10px 10px;
+}
+
+.foot .masthead {
+  border-top: 1px solid #666666;
+  margin-top: 10px;
+  padding-top: 10px;
+}
