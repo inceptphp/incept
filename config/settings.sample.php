@@ -1,5 +1,6 @@
 <?php //-->
 return [
+  'logo' => 'https://www.incept.asia/images/logo/incept-logo-square-1.png',
   'name' => 'Incept',
   'email' => null,
   'timezone' => 'GMT',
