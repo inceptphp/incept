@@ -253,12 +253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/framework.git",
-                "reference": "d8afc0ae8198424ae2162b7d96013b25ec9540c9"
+                "reference": "d6c081c50e0754df7437bb0f28798c9f94580a52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/framework/zipball/d8afc0ae8198424ae2162b7d96013b25ec9540c9",
-                "reference": "d8afc0ae8198424ae2162b7d96013b25ec9540c9",
+                "url": "https://api.github.com/repos/inceptphp/framework/zipball/d6c081c50e0754df7437bb0f28798c9f94580a52",
+                "reference": "d6c081c50e0754df7437bb0f28798c9f94580a52",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
             "support": {
                 "source": "https://github.com/inceptphp/framework/tree/0.1"
             },
-            "time": "2021-05-15T10:52:18+00:00"
+            "time": "2021-05-16T16:08:18+00:00"
         },
         {
             "name": "inceptphp/packages",
@@ -298,12 +298,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/packages.git",
-                "reference": "52fbe3534401fbaf0e5c9a293612d609a34dbebc"
+                "reference": "277a22d7c96619711a47814c0f851620da91db12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/packages/zipball/52fbe3534401fbaf0e5c9a293612d609a34dbebc",
-                "reference": "52fbe3534401fbaf0e5c9a293612d609a34dbebc",
+                "url": "https://api.github.com/repos/inceptphp/packages/zipball/277a22d7c96619711a47814c0f851620da91db12",
+                "reference": "277a22d7c96619711a47814c0f851620da91db12",
                 "shasum": ""
             },
             "require": {
@@ -322,7 +322,27 @@
             "type": "incept-package",
             "autoload": {
                 "psr-4": {
-                    "Incept\\Package\\": "/"
+                    "Incept\\Package\\": "/",
+                    "Incept\\Package\\Admin\\": "admin/",
+                    "Incept\\Package\\Api\\": "api/",
+                    "Incept\\Package\\Auth\\": "auth/",
+                    "Incept\\Package\\Captcha\\": "captcha/",
+                    "Incept\\Package\\Csrf\\": "csrf/",
+                    "Incept\\Package\\Developer\\": "developer/",
+                    "Incept\\Package\\Email\\": "email/",
+                    "Incept\\Package\\Field\\": "field/",
+                    "Incept\\Package\\File\\": "file/",
+                    "Incept\\Package\\Format\\": "format/",
+                    "Incept\\Package\\Handlebars\\": "handlebars/",
+                    "Incept\\Package\\History\\": "history/",
+                    "Incept\\Package\\Install\\": "install/",
+                    "Incept\\Package\\Profile\\": "profile/",
+                    "Incept\\Package\\Queue\\": "queue/",
+                    "Incept\\Package\\Role\\": "role/",
+                    "Incept\\Package\\Sms\\": "sms/",
+                    "Incept\\Package\\Storm\\": "storm/",
+                    "Incept\\Package\\Valid\\": "valid/",
+                    "Incept\\Package\\Website\\": "website/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -334,7 +354,7 @@
                 "issues": "https://github.com/inceptphp/packages/issues",
                 "source": "https://github.com/inceptphp/packages/tree/0.1"
             },
-            "time": "2021-05-15T17:28:34+00:00"
+            "time": "2021-05-16T13:27:36+00:00"
         },
         {
             "name": "phpugph/components",
