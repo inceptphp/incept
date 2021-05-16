@@ -23,5 +23,5 @@ $ yarn build
 3. To start the server you issue the following command.
 
 ```bash
-$ bin/cradle server -h 127.0.0.1 -p 8888
+$ bin/incept server -h 127.0.0.1 -p 8888
 ```
