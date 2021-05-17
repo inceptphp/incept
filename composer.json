@@ -5,7 +5,7 @@
   "minimum-stability": "dev",
   "license": "LGPL-2.1-or-later",
   "require": {
-    "inceptphp/packages": "~0.1.0"
+    "inceptphp/packages": "~0.1.5"
   },
   "require-dev": {},
   "config": {

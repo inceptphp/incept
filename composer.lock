@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b41788801451114d1e0f0bf4c323d012",
+    "content-hash": "92b3ece32561fc0bb639c2e5ce80ef25",
     "packages": [
         {
             "name": "dejan7/httpquest",
@@ -253,12 +253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/framework.git",
-                "reference": "d6c081c50e0754df7437bb0f28798c9f94580a52"
+                "reference": "820d6b1cd4b629cb9da4b648dd308a5f09cc81b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/framework/zipball/d6c081c50e0754df7437bb0f28798c9f94580a52",
-                "reference": "d6c081c50e0754df7437bb0f28798c9f94580a52",
+                "url": "https://api.github.com/repos/inceptphp/framework/zipball/820d6b1cd4b629cb9da4b648dd308a5f09cc81b4",
+                "reference": "820d6b1cd4b629cb9da4b648dd308a5f09cc81b4",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
             "support": {
                 "source": "https://github.com/inceptphp/framework/tree/0.1"
             },
-            "time": "2021-05-16T16:08:18+00:00"
+            "time": "2021-05-17T13:38:24+00:00"
         },
         {
             "name": "inceptphp/packages",
@@ -298,18 +298,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/packages.git",
-                "reference": "277a22d7c96619711a47814c0f851620da91db12"
+                "reference": "e7394a5de2369be4ac70fa0b728deacdeec2f081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/packages/zipball/277a22d7c96619711a47814c0f851620da91db12",
-                "reference": "277a22d7c96619711a47814c0f851620da91db12",
+                "url": "https://api.github.com/repos/inceptphp/packages/zipball/e7394a5de2369be4ac70fa0b728deacdeec2f081",
+                "reference": "e7394a5de2369be4ac70fa0b728deacdeec2f081",
                 "shasum": ""
             },
             "require": {
                 "dejan7/httpquest": "~0.3.0",
                 "erusev/parsedown": "1.7.1",
-                "inceptphp/framework": "~0.1.0",
+                "inceptphp/framework": "~0.1.3",
                 "phpugph/storm": "~1.0.0",
                 "robthree/twofactorauth": "~1.8.0",
                 "swiftmailer/swiftmailer": "~6.2.7"
@@ -354,7 +354,7 @@
                 "issues": "https://github.com/inceptphp/packages/issues",
                 "source": "https://github.com/inceptphp/packages/tree/0.1"
             },
-            "time": "2021-05-16T13:27:36+00:00"
+            "time": "2021-05-17T15:40:54+00:00"
         },
         {
             "name": "phpugph/components",
