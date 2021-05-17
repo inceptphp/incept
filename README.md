@@ -45,5 +45,5 @@ Sign in using the following credentials:
 Lastly manually go to the admin:
 
 ```
-http://127.0.0.1:8888/auth/admin
+http://127.0.0.1:8888/admin
 ```
