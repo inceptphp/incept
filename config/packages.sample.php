@@ -77,6 +77,10 @@ return [
     'active' => true,
     'locked' => false
   ],
+  'inceptphp/packages/history' => [
+    'active' => true,
+    'locked' => false
+  ],
   'inceptphp/packages/website' => [
     'active' => true,
     'locked' => false
