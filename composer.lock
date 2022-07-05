@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a9a8684546f0beeb73829586667e24c",
+    "content-hash": "9ac107675aac8952ecce40b1dfd22383",
     "packages": [
         {
             "name": "dejan7/httpquest",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "f88dcf4b14af14a98ad96b14b2b317969eab6715"
+                "reference": "74d2f16d9d765fc282553a5b5b8bb99b7277c619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/f88dcf4b14af14a98ad96b14b2b317969eab6715",
-                "reference": "f88dcf4b14af14a98ad96b14b2b317969eab6715",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/74d2f16d9d765fc282553a5b5b8bb99b7277c619",
+                "reference": "74d2f16d9d765fc282553a5b5b8bb99b7277c619",
                 "shasum": ""
             },
             "require": {
@@ -188,7 +188,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/3.2.1"
+                "source": "https://github.com/egulias/EmailValidator/tree/3.x"
             },
             "funding": [
                 {
@@ -196,7 +196,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-18T20:57:19+00:00"
+            "time": "2022-06-24T18:51:04+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -250,21 +250,21 @@
         },
         {
             "name": "inceptphp/framework",
-            "version": "0.1.8",
+            "version": "0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/framework.git",
-                "reference": "908760ca7f9b3494a453cb7def296eeab8bb16d8"
+                "reference": "b50573216ae4c0fb40fe99881cac8e69b74eab04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/framework/zipball/908760ca7f9b3494a453cb7def296eeab8bb16d8",
-                "reference": "908760ca7f9b3494a453cb7def296eeab8bb16d8",
+                "url": "https://api.github.com/repos/inceptphp/framework/zipball/b50573216ae4c0fb40fe99881cac8e69b74eab04",
+                "reference": "b50573216ae4c0fb40fe99881cac8e69b74eab04",
                 "shasum": ""
             },
             "require": {
-                "phpugph/components": "1.0.5",
-                "phpugph/handlebars": "1.0.3"
+                "phpugph/components": "1.0.7",
+                "phpugph/handlebars": "1.0.5"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "2.5.2",
@@ -289,36 +289,36 @@
                 "framework"
             ],
             "support": {
-                "source": "https://github.com/inceptphp/framework/tree/0.1.8"
+                "source": "https://github.com/inceptphp/framework/tree/0.1.11"
             },
-            "time": "2022-06-23T15:17:26+00:00"
+            "time": "2022-07-05T18:25:35+00:00"
         },
         {
             "name": "inceptphp/packages",
-            "version": "0.1.10",
+            "version": "0.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inceptphp/packages.git",
-                "reference": "f828b075e0d92c75162c548d4998d216b818f6ed"
+                "reference": "c56bf0e79399455ab0802bdfbe593d5f7393c102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inceptphp/packages/zipball/f828b075e0d92c75162c548d4998d216b818f6ed",
-                "reference": "f828b075e0d92c75162c548d4998d216b818f6ed",
+                "url": "https://api.github.com/repos/inceptphp/packages/zipball/c56bf0e79399455ab0802bdfbe593d5f7393c102",
+                "reference": "c56bf0e79399455ab0802bdfbe593d5f7393c102",
                 "shasum": ""
             },
             "require": {
                 "dejan7/httpquest": "0.3.0",
                 "erusev/parsedown": "1.7.4",
-                "inceptphp/framework": "0.1.8",
-                "phpugph/storm": "1.0.2",
+                "inceptphp/framework": "0.1.11",
+                "phpugph/storm": "1.0.4",
                 "robthree/twofactorauth": "1.8.2",
                 "swiftmailer/swiftmailer": "6.2.7"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "~2.4.3",
-                "phpunit/phpunit": "~9.5.4",
-                "squizlabs/php_codesniffer": "~3.5.8"
+                "php-coveralls/php-coveralls": "2.5.2",
+                "phpunit/phpunit": "9.5.21",
+                "squizlabs/php_codesniffer": "3.7.1"
             },
             "type": "incept-package",
             "autoload": {
@@ -353,22 +353,22 @@
             "description": "Schema, Relations, Object manager",
             "support": {
                 "issues": "https://github.com/inceptphp/packages/issues",
-                "source": "https://github.com/inceptphp/packages/tree/0.1.10"
+                "source": "https://github.com/inceptphp/packages/tree/0.1.14"
             },
-            "time": "2022-06-23T16:14:00+00:00"
+            "time": "2022-07-05T18:28:34+00:00"
         },
         {
             "name": "phpugph/components",
-            "version": "1.0.5",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpugph/components.git",
-                "reference": "041bf6331541007f56fb05c83f92a746c0ab0a02"
+                "reference": "4b1da6bb58b34977f43cfe6a9f431ac974614817"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpugph/components/zipball/041bf6331541007f56fb05c83f92a746c0ab0a02",
-                "reference": "041bf6331541007f56fb05c83f92a746c0ab0a02",
+                "url": "https://api.github.com/repos/phpugph/components/zipball/4b1da6bb58b34977f43cfe6a9f431ac974614817",
+                "reference": "4b1da6bb58b34977f43cfe6a9f431ac974614817",
                 "shasum": ""
             },
             "require": {
@@ -396,26 +396,26 @@
             ],
             "support": {
                 "issues": "https://github.com/phpugph/components/issues",
-                "source": "https://github.com/phpugph/components/tree/1.0.5"
+                "source": "https://github.com/phpugph/components/tree/1.0.7"
             },
-            "time": "2022-06-23T02:34:42+00:00"
+            "time": "2022-07-05T18:18:09+00:00"
         },
         {
             "name": "phpugph/handlebars",
-            "version": "1.0.3",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpugph/handlebars.git",
-                "reference": "9c16b28270b194ee97acf6bbd95b1b738591cf7f"
+                "reference": "8ffa19aa007145b65b0d12a33fdfbe57fb63422d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpugph/handlebars/zipball/9c16b28270b194ee97acf6bbd95b1b738591cf7f",
-                "reference": "9c16b28270b194ee97acf6bbd95b1b738591cf7f",
+                "url": "https://api.github.com/repos/phpugph/handlebars/zipball/8ffa19aa007145b65b0d12a33fdfbe57fb63422d",
+                "reference": "8ffa19aa007145b65b0d12a33fdfbe57fb63422d",
                 "shasum": ""
             },
             "require": {
-                "phpugph/components": "1.0.5"
+                "phpugph/components": "1.0.7"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "2.5.2",
@@ -438,26 +438,26 @@
             ],
             "support": {
                 "issues": "https://github.com/phpugph/handlebars/issues",
-                "source": "https://github.com/phpugph/handlebars/tree/1.0.3"
+                "source": "https://github.com/phpugph/handlebars/tree/1.0.5"
             },
-            "time": "2022-06-23T03:02:24+00:00"
+            "time": "2022-07-05T18:20:54+00:00"
         },
         {
             "name": "phpugph/storm",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpugph/storm.git",
-                "reference": "b74ae1cac37aed6bbe9b9913e78bd08f1dfcdb00"
+                "reference": "d5e68eef05d49d41f7a998a411a38b67c7b6c1de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpugph/storm/zipball/b74ae1cac37aed6bbe9b9913e78bd08f1dfcdb00",
-                "reference": "b74ae1cac37aed6bbe9b9913e78bd08f1dfcdb00",
+                "url": "https://api.github.com/repos/phpugph/storm/zipball/d5e68eef05d49d41f7a998a411a38b67c7b6c1de",
+                "reference": "d5e68eef05d49d41f7a998a411a38b67c7b6c1de",
                 "shasum": ""
             },
             "require": {
-                "phpugph/components": "1.0.5"
+                "phpugph/components": "1.0.7"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "2.5.2",
@@ -483,9 +483,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpugph/storm/issues",
-                "source": "https://github.com/phpugph/storm/tree/1.0.2"
+                "source": "https://github.com/phpugph/storm/tree/1.0.4"
             },
-            "time": "2022-06-23T03:15:16+00:00"
+            "time": "2022-07-05T18:21:59+00:00"
         },
         {
             "name": "robthree/twofactorauth",
